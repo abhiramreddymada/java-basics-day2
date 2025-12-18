@@ -19,7 +19,6 @@ public class RealWorldScenarios {
             switch (choice) {
 
                 case 1:
-                    // Voting Age Check
                     System.out.print("Enter age: ");
                     int age = sc.nextInt();
 
@@ -31,7 +30,6 @@ public class RealWorldScenarios {
                     break;
 
                 case 2:
-                    // Loan Eligibility
                     System.out.print("Enter monthly income: ");
                     double income = sc.nextDouble();
 
@@ -46,9 +44,8 @@ public class RealWorldScenarios {
                     break;
 
                 case 3:
-                    // Traffic Light System
                     System.out.print("Enter traffic light color (Red/Yellow/Green): ");
-                    sc.nextLine(); // clear buffer
+                    sc.nextLine(); 
                     String light = sc.nextLine();
 
                     if (light.equalsIgnoreCase("Green")) {
@@ -75,3 +72,4 @@ public class RealWorldScenarios {
         sc.close();
     }
 }
+
